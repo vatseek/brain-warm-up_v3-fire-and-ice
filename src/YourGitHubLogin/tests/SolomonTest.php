@@ -1,0 +1,19 @@
+<?php
+
+namespace YourGitHubLogin;
+
+/**
+ * Class Solomon
+ *
+ * @package YourGitHubLogin
+ */
+class SolomonTest extends \BaseTest
+{
+    /**
+     * Set up crossword maker
+     */
+    protected function setUpSolomon()
+    {
+        $this->solomon = new Solomon();
+    }
+}
